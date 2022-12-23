@@ -9,6 +9,8 @@ import UIKit
 
 class ViewController: UITableViewController {
     var pictures = [String]()
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         let path  = "/Users/baegdaehong/Desktop/xcode/PetGallary/Pic"
@@ -24,14 +26,21 @@ class ViewController: UITableViewController {
         print(pictures)
     }
     
-    override func tableView(_ tableView: UITableView, numberOfRowsInSection
-        section: Int) -> Int {
+    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return pictures.count
     }
     
-    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+    
+    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell { // 테이블뷰에 셀로 사진 텍스트 출력
         let cell = tableView.dequeueReusableCell(withIdentifier: "Picture", for: indexPath)
         cell.textLabel?.text = pictures[indexPath.row]
         return cell
+    }
+    
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {  //디테일뷰에 이미지 출력
+        if let vc = storyboard?.instantiateViewController(withIdentifier: "Detail") as? DetailViewController {
+            vc.selectedImage = pictures[indexPath.row]
+            navigationController?.pushViewController(vc, animated: true)
+        }
     }
 }
