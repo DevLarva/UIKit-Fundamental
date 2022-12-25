@@ -23,7 +23,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         
         
         // cell 리소스 파일 가져오기
-        let myTableViewCellNib = UINib(nibName: String(describing: MyTableViewCell.self), bundle: nil)
+        let myTableViewCellNib = UINib(nibName: String(describing: MyTableViewCell.self), bundle: nil);
         
         // cell에 리소스 등록
         self.myTableView.register(myTableViewCellNib, forCellReuseIdentifier: "myTableViewCell")
@@ -42,13 +42,24 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     
     //테이블 뷰 cell의 개수
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        <#code#>
+        return self.contentArray.count
+        
     }
     
     
-    //
+    // 각 cell에 대한 설정
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        <#code#>
+        
+        let cell = myTableView.dequeueReusableCell(withIdentifier: "myTableViewCell", for: indexPath)
+        as! MyTableViewCell
+        
+        cell.userContentLabel.text = contentArray[indexPath.row]
+        
+        cell.userProfileImg.layer.cornerRadius = cell.userProfileImg.frame.height / 2
+        
+        
+        return cell
+        
     }
     
 

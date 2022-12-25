@@ -8,18 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		AC6DEC912956DFF5006F8869 /* MyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6DEC902956DFF5006F8869 /* MyTableViewCell.swift */; };
+		AC6E03CC2958403900844D03 /* MyTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC6E03CB2958403900844D03 /* MyTableViewCell.xib */; };
 		AC7CE2292956D7910092076E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7CE2282956D7910092076E /* AppDelegate.swift */; };
 		AC7CE22B2956D7910092076E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7CE22A2956D7910092076E /* SceneDelegate.swift */; };
 		AC7CE22D2956D7910092076E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7CE22C2956D7910092076E /* ViewController.swift */; };
 		AC7CE2302956D7910092076E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC7CE22E2956D7910092076E /* Main.storyboard */; };
 		AC7CE2322956D7910092076E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC7CE2312956D7910092076E /* Assets.xcassets */; };
 		AC7CE2352956D7910092076E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC7CE2332956D7910092076E /* LaunchScreen.storyboard */; };
-		AC7CE23D2956D8E80092076E /* MytableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC7CE23C2956D8E80092076E /* MytableViewCell.xib */; };
 		AC7CE2432956DAA50092076E /* Pic.png in Resources */ = {isa = PBXBuildFile; fileRef = AC7CE2422956DAA50092076E /* Pic.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		AC6DEC902956DFF5006F8869 /* MyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewCell.swift; sourceTree = "<group>"; };
+		AC6E03CB2958403900844D03 /* MyTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyTableViewCell.xib; sourceTree = "<group>"; };
 		AC7CE2252956D7910092076E /* Dynamic TableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dynamic TableView.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC7CE2282956D7910092076E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AC7CE22A2956D7910092076E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -28,7 +29,6 @@
 		AC7CE2312956D7910092076E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC7CE2342956D7910092076E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AC7CE2362956D7910092076E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AC7CE23C2956D8E80092076E /* MytableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MytableViewCell.xib; sourceTree = "<group>"; };
 		AC7CE2422956DAA50092076E /* Pic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Pic.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -66,8 +66,8 @@
 				AC7CE22A2956D7910092076E /* SceneDelegate.swift */,
 				AC7CE22C2956D7910092076E /* ViewController.swift */,
 				AC6DEC902956DFF5006F8869 /* MyTableViewCell.swift */,
+				AC6E03CB2958403900844D03 /* MyTableViewCell.xib */,
 				AC7CE22E2956D7910092076E /* Main.storyboard */,
-				AC7CE23C2956D8E80092076E /* MytableViewCell.xib */,
 				AC7CE2312956D7910092076E /* Assets.xcassets */,
 				AC7CE2332956D7910092076E /* LaunchScreen.storyboard */,
 				AC7CE2362956D7910092076E /* Info.plist */,
@@ -134,8 +134,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC6E03CC2958403900844D03 /* MyTableViewCell.xib in Resources */,
 				AC7CE2352956D7910092076E /* LaunchScreen.storyboard in Resources */,
-				AC7CE23D2956D8E80092076E /* MytableViewCell.xib in Resources */,
 				AC7CE2432956DAA50092076E /* Pic.png in Resources */,
 				AC7CE2322956D7910092076E /* Assets.xcassets in Resources */,
 				AC7CE2302956D7910092076E /* Main.storyboard in Resources */,
