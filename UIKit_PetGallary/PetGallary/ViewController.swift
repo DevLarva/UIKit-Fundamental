@@ -18,7 +18,7 @@ class ViewController: UITableViewController {
         title = "Pet Gallary"
         navigationController?.navigationBar.prefersLargeTitles = true
         
-        let path  = "/Users/baegdaehong/Desktop/xcode/PetGallary/Pic"
+        let path  = "/Users/baegdaehong/Desktop/xcode/UIKit-Fundamental/UIKit_PetGallary/Pic"
         let filemanager = FileManager.default
         let items = try! filemanager.contentsOfDirectory(atPath: path)
         
