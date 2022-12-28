@@ -14,7 +14,10 @@ class SecondViewController: UIViewController {
 
         // Do any additional setup after loading the view.
     }
-    
+    @IBAction func dismissModal() {                     // 모달 내리기 버튼
+        self.dismiss(animated: true, completion: nil)
+        
+    }
 
     /*
     // MARK: - Navigation
