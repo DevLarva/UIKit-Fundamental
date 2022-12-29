@@ -16,7 +16,7 @@ class SecondViewController: UIViewController {
     }
     @IBAction func dismissModal() {                     // 모달 내리기 버튼
         self.dismiss(animated: true, completion: nil)
-        
+        print("모달 내려감")
     }
 
     /*
