@@ -8,7 +8,11 @@
 import UIKit
 
 class SecondViewController: UIViewController {
-
+    
+    @IBOutlet weak var IDLabel:UILabel!
+    @IBOutlet weak var PasswordLabel:UILabel!
+    @IBOutlet weak var CheckPasswordLabel:UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -17,6 +21,14 @@ class SecondViewController: UIViewController {
     @IBAction func dismissModal() {                     // 모달 내리기 버튼
         self.dismiss(animated: true, completion: nil)
         print("모달 내려감")
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        
+        self.IDLabel.text = UserInformation.shared.ID
+        self.PasswordLabel.text = UserInformation.shared.Password
+        self.CheckPasswordLabel.text = UserInformation.shared.CheckPassWord
     }
 
     /*
