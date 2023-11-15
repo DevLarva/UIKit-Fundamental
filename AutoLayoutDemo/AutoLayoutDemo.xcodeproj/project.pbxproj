@@ -14,6 +14,7 @@
 		AC03097C2B03965500DACB70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC03097B2B03965500DACB70 /* Assets.xcassets */; };
 		AC03097F2B03965500DACB70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC03097D2B03965500DACB70 /* LaunchScreen.storyboard */; };
 		AC0309882B03CD4F00DACB70 /* Nested Stack View.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC0309872B03CD4F00DACB70 /* Nested Stack View.storyboard */; };
+		AC24C8032B04BA810065B530 /* Dynamic Stack View.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC24C8022B04BA810065B530 /* Dynamic Stack View.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		AC03097E2B03965500DACB70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AC0309802B03965500DACB70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AC0309872B03CD4F00DACB70 /* Nested Stack View.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Nested Stack View.storyboard"; sourceTree = "<group>"; };
+		AC24C8022B04BA810065B530 /* Dynamic Stack View.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Dynamic Stack View.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 			children = (
 				AC0309782B03965400DACB70 /* SimpleStackView.storyboard */,
 				AC0309872B03CD4F00DACB70 /* Nested Stack View.storyboard */,
+				AC24C8022B04BA810065B530 /* Dynamic Stack View.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -137,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC03097F2B03965500DACB70 /* LaunchScreen.storyboard in Resources */,
+				AC24C8032B04BA810065B530 /* Dynamic Stack View.storyboard in Resources */,
 				AC03097C2B03965500DACB70 /* Assets.xcassets in Resources */,
 				AC03097A2B03965400DACB70 /* SimpleStackView.storyboard in Resources */,
 				AC0309882B03CD4F00DACB70 /* Nested Stack View.storyboard in Resources */,
