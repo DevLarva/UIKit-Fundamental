@@ -16,6 +16,7 @@
 		AC0309882B03CD4F00DACB70 /* Nested Stack View.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC0309872B03CD4F00DACB70 /* Nested Stack View.storyboard */; };
 		AC24C8032B04BA810065B530 /* Dynamic Stack View.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC24C8022B04BA810065B530 /* Dynamic Stack View.storyboard */; };
 		ACC0346A2B05FCC700FB00BD /* Simple Single View.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACC034692B05FCC700FB00BD /* Simple Single View.storyboard */; };
+		ACC0346C2B06012100FB00BD /* Adaptive Single View.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACC0346B2B06012100FB00BD /* Adaptive Single View.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		AC0309872B03CD4F00DACB70 /* Nested Stack View.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Nested Stack View.storyboard"; sourceTree = "<group>"; };
 		AC24C8022B04BA810065B530 /* Dynamic Stack View.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Dynamic Stack View.storyboard"; sourceTree = "<group>"; };
 		ACC034692B05FCC700FB00BD /* Simple Single View.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Simple Single View.storyboard"; sourceTree = "<group>"; };
+		ACC0346B2B06012100FB00BD /* Adaptive Single View.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Adaptive Single View.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				AC0309872B03CD4F00DACB70 /* Nested Stack View.storyboard */,
 				AC24C8022B04BA810065B530 /* Dynamic Stack View.storyboard */,
 				ACC034692B05FCC700FB00BD /* Simple Single View.storyboard */,
+				ACC0346B2B06012100FB00BD /* Adaptive Single View.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -148,6 +151,7 @@
 				AC03097C2B03965500DACB70 /* Assets.xcassets in Resources */,
 				AC03097A2B03965400DACB70 /* SimpleStackView.storyboard in Resources */,
 				AC0309882B03CD4F00DACB70 /* Nested Stack View.storyboard in Resources */,
+				ACC0346C2B06012100FB00BD /* Adaptive Single View.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
