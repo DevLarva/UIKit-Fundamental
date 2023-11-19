@@ -17,6 +17,7 @@
 		AC24C8032B04BA810065B530 /* Dynamic Stack View.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC24C8022B04BA810065B530 /* Dynamic Stack View.storyboard */; };
 		ACC0346A2B05FCC700FB00BD /* Simple Single View.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACC034692B05FCC700FB00BD /* Simple Single View.storyboard */; };
 		ACC0346C2B06012100FB00BD /* Adaptive Single View.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACC0346B2B06012100FB00BD /* Adaptive Single View.storyboard */; };
+		ACC0346E2B06073500FB00BD /* Two Equal-Width Views.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACC0346D2B06073500FB00BD /* Two Equal-Width Views.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		AC24C8022B04BA810065B530 /* Dynamic Stack View.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Dynamic Stack View.storyboard"; sourceTree = "<group>"; };
 		ACC034692B05FCC700FB00BD /* Simple Single View.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Simple Single View.storyboard"; sourceTree = "<group>"; };
 		ACC0346B2B06012100FB00BD /* Adaptive Single View.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Adaptive Single View.storyboard"; sourceTree = "<group>"; };
+		ACC0346D2B06073500FB00BD /* Two Equal-Width Views.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Two Equal-Width Views.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				AC24C8022B04BA810065B530 /* Dynamic Stack View.storyboard */,
 				ACC034692B05FCC700FB00BD /* Simple Single View.storyboard */,
 				ACC0346B2B06012100FB00BD /* Adaptive Single View.storyboard */,
+				ACC0346D2B06073500FB00BD /* Two Equal-Width Views.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -145,6 +148,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACC0346E2B06073500FB00BD /* Two Equal-Width Views.storyboard in Resources */,
 				AC03097F2B03965500DACB70 /* LaunchScreen.storyboard in Resources */,
 				ACC0346A2B05FCC700FB00BD /* Simple Single View.storyboard in Resources */,
 				AC24C8032B04BA810065B530 /* Dynamic Stack View.storyboard in Resources */,
