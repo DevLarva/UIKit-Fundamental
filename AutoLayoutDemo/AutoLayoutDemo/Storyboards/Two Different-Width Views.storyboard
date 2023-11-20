@@ -16,19 +16,27 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eu4-b9-XFw" userLabel="Purple view">
-                                <rect key="frame" x="0.0" y="473" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="systemPurpleColor"/>
-                            </view>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GYy-QR-dBg" userLabel="Orange view">
-                                <rect key="frame" x="137" y="271" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GYy-QR-dBg" userLabel="Orange view">
+                                <rect key="frame" x="222.33333333333337" y="79" width="154.66666666666663" height="719"/>
                                 <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eu4-b9-XFw" userLabel="Purple view">
+                                <rect key="frame" x="16" y="79" width="206.33333333333334" height="719"/>
+                                <color key="backgroundColor" systemColor="systemPurpleColor"/>
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="GYy-QR-dBg" firstAttribute="leading" secondItem="eu4-b9-XFw" secondAttribute="trailing" id="11F-W6-NjF"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="eu4-b9-XFw" secondAttribute="bottom" constant="20" id="HsG-kj-KdQ"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="GYy-QR-dBg" secondAttribute="trailing" id="Kr3-Fd-kxO"/>
+                            <constraint firstItem="eu4-b9-XFw" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="20" id="Wdo-bN-Xdg"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="GYy-QR-dBg" secondAttribute="bottom" constant="20" id="l6b-Eh-FXr"/>
+                            <constraint firstItem="GYy-QR-dBg" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="20" id="lAJ-pB-iJH"/>
+                            <constraint firstItem="eu4-b9-XFw" firstAttribute="width" secondItem="GYy-QR-dBg" secondAttribute="width" multiplier="4:3" id="mNV-xz-FlX"/>
+                            <constraint firstItem="eu4-b9-XFw" firstAttribute="leading" secondItem="5EZ-qb-Rvc" secondAttribute="leadingMargin" id="tUs-Y5-IOq"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
