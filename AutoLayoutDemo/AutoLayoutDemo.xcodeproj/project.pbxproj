@@ -15,6 +15,7 @@
 		AC03097F2B03965500DACB70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC03097D2B03965500DACB70 /* LaunchScreen.storyboard */; };
 		AC0309882B03CD4F00DACB70 /* Nested Stack View.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC0309872B03CD4F00DACB70 /* Nested Stack View.storyboard */; };
 		AC24C8032B04BA810065B530 /* Dynamic Stack View.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC24C8022B04BA810065B530 /* Dynamic Stack View.storyboard */; };
+		AC39805D2B0CF52E00040CB8 /* Fixed Height Columns.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC39805C2B0CF52E00040CB8 /* Fixed Height Columns.storyboard */; };
 		ACB0C96C2B0BA97600BF37ED /* Two Different-Width Views.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACB0C96B2B0BA97600BF37ED /* Two Different-Width Views.storyboard */; };
 		ACB0C96E2B0BAD0300BF37ED /* Simple Label and Text Field.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACB0C96D2B0BAD0300BF37ED /* Simple Label and Text Field.storyboard */; };
 		ACC0346A2B05FCC700FB00BD /* Simple Single View.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACC034692B05FCC700FB00BD /* Simple Single View.storyboard */; };
@@ -33,6 +34,7 @@
 		AC0309802B03965500DACB70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AC0309872B03CD4F00DACB70 /* Nested Stack View.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Nested Stack View.storyboard"; sourceTree = "<group>"; };
 		AC24C8022B04BA810065B530 /* Dynamic Stack View.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Dynamic Stack View.storyboard"; sourceTree = "<group>"; };
+		AC39805C2B0CF52E00040CB8 /* Fixed Height Columns.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Fixed Height Columns.storyboard"; sourceTree = "<group>"; };
 		ACB0C96B2B0BA97600BF37ED /* Two Different-Width Views.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Two Different-Width Views.storyboard"; sourceTree = "<group>"; };
 		ACB0C96D2B0BAD0300BF37ED /* Simple Label and Text Field.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Simple Label and Text Field.storyboard"; sourceTree = "<group>"; };
 		ACC034692B05FCC700FB00BD /* Simple Single View.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Simple Single View.storyboard"; sourceTree = "<group>"; };
@@ -92,6 +94,7 @@
 				ACC0346D2B06073500FB00BD /* Two Equal-Width Views.storyboard */,
 				ACB0C96B2B0BA97600BF37ED /* Two Different-Width Views.storyboard */,
 				ACB0C96D2B0BAD0300BF37ED /* Simple Label and Text Field.storyboard */,
+				AC39805C2B0CF52E00040CB8 /* Fixed Height Columns.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -154,6 +157,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC39805D2B0CF52E00040CB8 /* Fixed Height Columns.storyboard in Resources */,
 				ACC0346E2B06073500FB00BD /* Two Equal-Width Views.storyboard in Resources */,
 				AC03097F2B03965500DACB70 /* LaunchScreen.storyboard in Resources */,
 				ACB0C96C2B0BA97600BF37ED /* Two Different-Width Views.storyboard in Resources */,
