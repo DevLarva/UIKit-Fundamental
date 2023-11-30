@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC7E60582B18D23D0061AEF5 /* Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7E60572B18D23D0061AEF5 /* Extentions.swift */; };
 		AC8F3A802B177EFB00C4586D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8F3A7F2B177EFB00C4586D /* AppDelegate.swift */; };
 		AC8F3A822B177EFB00C4586D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8F3A812B177EFB00C4586D /* SceneDelegate.swift */; };
 		AC8F3A842B177EFB00C4586D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8F3A832B177EFB00C4586D /* HomeViewController.swift */; };
@@ -32,6 +33,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AC7E60572B18D23D0061AEF5 /* Extentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extentions.swift; sourceTree = "<group>"; };
 		AC8F3A7C2B177EFB00C4586D /* Spotify_UIKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Spotify_UIKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC8F3A7F2B177EFB00C4586D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AC8F3A812B177EFB00C4586D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -150,6 +152,7 @@
 				AC8F3A882B177EFC00C4586D /* Assets.xcassets */,
 				AC8F3A7F2B177EFB00C4586D /* AppDelegate.swift */,
 				AC8F3A812B177EFB00C4586D /* SceneDelegate.swift */,
+				AC7E60572B18D23D0061AEF5 /* Extentions.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -269,6 +272,7 @@
 				AC8F3AAE2B17844000C4586D /* SearchResultViewController.swift in Sources */,
 				AC8F3AB22B1784BA00C4586D /* APICaller.swift in Sources */,
 				AC8F3AA62B1783EF00C4586D /* SettingsViewController.swift in Sources */,
+				AC7E60582B18D23D0061AEF5 /* Extentions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
