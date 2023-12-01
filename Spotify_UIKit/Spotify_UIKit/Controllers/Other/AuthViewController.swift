@@ -27,9 +27,29 @@ class AuthViewController: UIViewController, WKNavigationDelegate {
         view.backgroundColor = .systemBackground
         webView.navigationDelegate = self
         view.addSubview(webView)
+        guard let url = AuthManager.shared.signInURL
+        else {
+            return
+        }
+        webView.load(URLRequest(url: url))
     }
     override func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()
         webView.frame = view.bounds
+    }
+    
+    func webView(_ webView: WKWebView, didStartProvisionalNavigation navigation: WKNavigation!) {
+        guard let url = webView.url
+        else {
+            return
+        }
+        // 여기서 access token을 위한 코드로 교환
+        guard let code = URLComponents(string: url.absoluteString)?.queryItems?.first(where: { $0.name == "code" })?.value
+        else {
+            return
+        }
+        print("Code: \(code)")
+        
+        
     }
 }
