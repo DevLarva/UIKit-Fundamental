@@ -27,13 +27,9 @@ class AuthViewController: UIViewController, WKNavigationDelegate {
         view.backgroundColor = .systemBackground
         webView.navigationDelegate = self
         view.addSubview(webView)
-       
     }
     override func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()
         webView.frame = view.bounds
     }
-
-
-
 }
