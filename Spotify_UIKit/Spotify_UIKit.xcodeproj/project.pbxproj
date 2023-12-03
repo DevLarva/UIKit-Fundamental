@@ -30,6 +30,7 @@
 		AC8F3AB82B17850A00C4586D /* AudioTrack.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8F3AB72B17850A00C4586D /* AudioTrack.swift */; };
 		AC8F3ABA2B17851700C4586D /* Artist.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8F3AB92B17851700C4586D /* Artist.swift */; };
 		AC8F3ABC2B17852400C4586D /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8F3ABB2B17852400C4586D /* UserProfile.swift */; };
+		AC9B4D722B1CDAF8002262CC /* AuthResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9B4D712B1CDAF8002262CC /* AuthResponse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +59,7 @@
 		AC8F3AB72B17850A00C4586D /* AudioTrack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioTrack.swift; sourceTree = "<group>"; };
 		AC8F3AB92B17851700C4586D /* Artist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artist.swift; sourceTree = "<group>"; };
 		AC8F3ABB2B17852400C4586D /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
+		AC9B4D712B1CDAF8002262CC /* AuthResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthResponse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +127,7 @@
 				AC8F3AB72B17850A00C4586D /* AudioTrack.swift */,
 				AC8F3AB92B17851700C4586D /* Artist.swift */,
 				AC8F3ABB2B17852400C4586D /* UserProfile.swift */,
+				AC9B4D712B1CDAF8002262CC /* AuthResponse.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 				AC8F3A9A2B17833A00C4586D /* TabBarViewController.swift in Sources */,
 				AC8F3A842B177EFB00C4586D /* HomeViewController.swift in Sources */,
 				AC8F3AB42B1784D900C4586D /* HapticsManager.swift in Sources */,
+				AC9B4D722B1CDAF8002262CC /* AuthResponse.swift in Sources */,
 				AC8F3AB82B17850A00C4586D /* AudioTrack.swift in Sources */,
 				AC8F3AA22B1783D300C4586D /* AuthViewController.swift in Sources */,
 				AC8F3A802B177EFB00C4586D /* AppDelegate.swift in Sources */,

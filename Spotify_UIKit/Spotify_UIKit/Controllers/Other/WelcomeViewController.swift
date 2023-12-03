@@ -40,6 +40,15 @@ class WelcomeViewController: UIViewController {
     }
     
     private func hangleSignIn(success:Bool) {
-        //
+        guard success else {
+            let alert = UIAlertController(title: "이런..", message: "로그인 시도 중 뭔가 잘못된거 같습니다... ", preferredStyle: .alert)
+            alert.addAction(UIAlertAction(title: "나가기", style: .cancel, handler: nil))
+            present(alert, animated: true)
+            return
+        }
+        
+        let mainAppTabBarVC = TabBarViewController()
+        mainAppTabBarVC.modalPresentationStyle = .fullScreen
+        present(mainAppTabBarVC, animated: true)
     }
 }

@@ -29,23 +29,28 @@ final class AuthManager {
     }
     
     var isSignedIn: Bool {
-        return false
+        return accessToken != nil
     }
     
     private var accessToken: String? {
-        return nil
+        return UserDefaults.standard.string(forKey: "access_token")
     }
     
     private var refreshToken: String? {
-        return nil
+        return UserDefaults.standard.string(forKey: "refresh_token")
     }
     
     private var tokenExpirationDate: Date? {
-        return nil
+        return UserDefaults.standard.object(forKey: "expirationDate") as? Date
     }
     
     private var shouldRefreshToken: Bool {
-        return false
+        guard let expirationDate = tokenExpirationDate else {
+            return false
+        }
+        let currentDate = Date()
+        let fiveMinutes: TimeInterval = 300
+        return currentDate.addingTimeInterval(fiveMinutes) >= expirationDate
     }
     
     public func exchangeCodeForToken(
@@ -80,16 +85,17 @@ final class AuthManager {
                 
         request.setValue("Basic \(base64String)", forHTTPHeaderField: "Authorization")
         
-        let task =  URLSession.shared.dataTask(with: request) { data, _, error in
+        let task =  URLSession.shared.dataTask(with: request) {[weak self] data, _, error in
             guard let data = data,
                   error == nil else {
                 completion(false)
                 return
             }
             do {
-                let json = try JSONSerialization.jsonObject(with: data,
-                                                        options: .allowFragments)
-                print("Success: \(json)")
+                let result = try JSONDecoder().decode(AuthResponse.self, from: data)
+                self?.cacheToken(result: result)
+                
+                completion(true)
             }
             catch {
                 print(error.localizedDescription)
@@ -104,7 +110,11 @@ final class AuthManager {
     }
     
     
-    private func cacheToken() {
+    private func cacheToken(result: AuthResponse) {
+        UserDefaults.standard.setValue(result.access_token, forKey: "access_token")
+        UserDefaults.standard.setValue(result.refresh_token, forKey: "refresh_token")
+        UserDefaults.standard.setValue(Date().addingTimeInterval(TimeInterval(result.expires_in)), forKey: "expirationDate")
+        
         
     }
     
